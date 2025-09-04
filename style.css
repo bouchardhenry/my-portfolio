@@ -1,0 +1,173 @@
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.6;
+  color: whitesmoke;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.75);
+  margin-top: 0;
+}
+
+.namn {
+  margin-top: 8rem;
+  font-size: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titel {
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+body {
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1096px; /* ny rad */
+  margin: 0 auto; /* auto centrerar containern */
+}
+
+.flex-item {
+  display: flex;
+  background-color: rgb(44, 42, 42);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 40px;
+  flex: 1; /* växer till hela bredden */
+  max-width: 100%; /* fyller containern */
+  height: auto; /* anpassa höjd efter innehåll */
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 0;
+  flex-direction: row;
+}
+
+.flex-row .text {
+  flex: 1 1 400px;
+  margin-bottom: 0;
+  flex-direction: row;
+}
+
+.flex-row .image {
+  flex: 1 1 300px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.profilbild1 {
+  border: 5px solid #ffffff;
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 0;
+  width: 300px;
+}
+
+.profilbild2 {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1.5rem;
+  background-color: rgb(50, 132, 255);
+  color: white;
+  border: #364a5e;
+  box-shadow: 0 6px 20px rgba(50, 132, 255, 0.5); /* skugga */
+  margin-bottom: 2rem;
+}
+
+.skills {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1.5rem; /* space between buttons */
+  margin-top: 0;
+}
+
+.skill {
+  background-color: rgb(37, 35, 35);
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16); /* skugga */
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.svealink{
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.färdigheter{
+  background-image: url(backgroundspace.png);
+}
+
+.btn:hover{
+    background-color: rgb(117, 171, 252);
+    cursor: pointer;
+    transform: scale(1.10);
+}
